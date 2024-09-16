@@ -19,3 +19,13 @@ List of major technologies, frameworks, or libraries used in the project:
 1. **Clone the repo:**
    ```bash
    git clone https://github.com/doorfen/MarshallCrypto.git
+
+2.	Navigate to the project directory:
+   ```bash
+   cd MarshallCrypto
+
+3.	Open the project in Xcode:
+	Double-click the .xcodeproj or .xcworkspace file.
+
+4.	Build and run the project:
+	Click the play button in Xcode to build and run the app on your simulator or connected device.
