@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3E2AA0C2C9434EE00FC5AEA /* MarshallCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA0B2C9434EE00FC5AEA /* MarshallCryptoApp.swift */; };
+		E3E2AA0E2C9434EE00FC5AEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA0D2C9434EE00FC5AEA /* ContentView.swift */; };
+		E3E2AA102C9434EF00FC5AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E2AA0F2C9434EF00FC5AEA /* Assets.xcassets */; };
+		E3E2AA132C9434EF00FC5AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E2AA122C9434EF00FC5AEA /* Preview Assets.xcassets */; };
+		E3E2AA1D2C9434EF00FC5AEA /* MarshallCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA1C2C9434EF00FC5AEA /* MarshallCryptoTests.swift */; };
+		E3E2AA3D2C9438D100FC5AEA /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3E2AA3B2C9438D100FC5AEA /* OpenSans-SemiBold.ttf */; };
+		E3E2AA3E2C9438D100FC5AEA /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3E2AA3C2C9438D100FC5AEA /* OpenSans-Regular.ttf */; };
+		E3E2AA412C94397B00FC5AEA /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA402C94397B00FC5AEA /* Text+Extension.swift */; };
+		E3E2AA442C9446D600FC5AEA /* FetchDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA432C9446D600FC5AEA /* FetchDataService.swift */; };
+		E3E2AA472C9447F400FC5AEA /* CryptoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA462C9447F400FC5AEA /* CryptoData.swift */; };
+		E3E2AA492C94492A00FC5AEA /* CryptoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA482C94492A00FC5AEA /* CryptoResponse.swift */; };
+		E3E2AA4E2C9495F100FC5AEA /* CryptoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA4D2C9495F100FC5AEA /* CryptoImage.swift */; };
+		E3E2AA502C94979300FC5AEA /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA4F2C94979300FC5AEA /* CryptoCurrency.swift */; };
+		E3E2AA522C989A8700FC5AEA /* CryptoLatestPricingSEK.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA512C989A8700FC5AEA /* CryptoLatestPricingSEK.swift */; };
+		E3E2AA542C98A8A600FC5AEA /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA532C98A8A600FC5AEA /* ProgressView.swift */; };
+		E3E2AA562C98B7A400FC5AEA /* CryptoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA552C98B7A400FC5AEA /* CryptoDetailView.swift */; };
+		E3E2AA582C98C35D00FC5AEA /* CurrentCurrencyUSDKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA572C98C35D00FC5AEA /* CurrentCurrencyUSDKey.swift */; };
+		E3E2AA5A2C98CD5700FC5AEA /* CryptoLatestPricingUSD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E2AA592C98CD5700FC5AEA /* CryptoLatestPricingUSD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3E2AA192C9434EF00FC5AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3E2AA002C9434EE00FC5AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E2AA072C9434EE00FC5AEA;
+			remoteInfo = MarshallCrypto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3E2AA082C9434EE00FC5AEA /* MarshallCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarshallCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E2AA0B2C9434EE00FC5AEA /* MarshallCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarshallCryptoApp.swift; sourceTree = "<group>"; };
+		E3E2AA0D2C9434EE00FC5AEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3E2AA0F2C9434EF00FC5AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3E2AA122C9434EF00FC5AEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3E2AA182C9434EF00FC5AEA /* MarshallCryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarshallCryptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E2AA1C2C9434EF00FC5AEA /* MarshallCryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarshallCryptoTests.swift; sourceTree = "<group>"; };
+		E3E2AA382C94388A00FC5AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E3E2AA3B2C9438D100FC5AEA /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		E3E2AA3C2C9438D100FC5AEA /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		E3E2AA402C94397B00FC5AEA /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		E3E2AA432C9446D600FC5AEA /* FetchDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataService.swift; sourceTree = "<group>"; };
+		E3E2AA462C9447F400FC5AEA /* CryptoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoData.swift; sourceTree = "<group>"; };
+		E3E2AA482C94492A00FC5AEA /* CryptoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoResponse.swift; sourceTree = "<group>"; };
+		E3E2AA4D2C9495F100FC5AEA /* CryptoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoImage.swift; sourceTree = "<group>"; };
+		E3E2AA4F2C94979300FC5AEA /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		E3E2AA512C989A8700FC5AEA /* CryptoLatestPricingSEK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoLatestPricingSEK.swift; sourceTree = "<group>"; };
+		E3E2AA532C98A8A600FC5AEA /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		E3E2AA552C98B7A400FC5AEA /* CryptoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailView.swift; sourceTree = "<group>"; };
+		E3E2AA572C98C35D00FC5AEA /* CurrentCurrencyUSDKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentCurrencyUSDKey.swift; sourceTree = "<group>"; };
+		E3E2AA592C98CD5700FC5AEA /* CryptoLatestPricingUSD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoLatestPricingUSD.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3E2AA052C9434EE00FC5AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E2AA152C9434EF00FC5AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3E2A9FF2C9434EE00FC5AEA = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA0A2C9434EE00FC5AEA /* MarshallCrypto */,
+				E3E2AA1B2C9434EF00FC5AEA /* MarshallCryptoTests */,
+				E3E2AA092C9434EE00FC5AEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3E2AA092C9434EE00FC5AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA082C9434EE00FC5AEA /* MarshallCrypto.app */,
+				E3E2AA182C9434EF00FC5AEA /* MarshallCryptoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3E2AA0A2C9434EE00FC5AEA /* MarshallCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA4A2C948AEC00FC5AEA /* Helpers */,
+				E3E2AA452C94477F00FC5AEA /* Model */,
+				E3E2AA382C94388A00FC5AEA /* Info.plist */,
+				E3E2AA422C94469200FC5AEA /* Utilities */,
+				E3E2AA362C94370B00FC5AEA /* Main */,
+				E3E2AA352C94351E00FC5AEA /* Views */,
+				E3E2AA3F2C94391B00FC5AEA /* Extension */,
+				E3E2AA372C94371900FC5AEA /* Resources */,
+				E3E2AA112C9434EF00FC5AEA /* Preview Content */,
+			);
+			path = MarshallCrypto;
+			sourceTree = "<group>";
+		};
+		E3E2AA112C9434EF00FC5AEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA122C9434EF00FC5AEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3E2AA1B2C9434EF00FC5AEA /* MarshallCryptoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA1C2C9434EF00FC5AEA /* MarshallCryptoTests.swift */,
+			);
+			path = MarshallCryptoTests;
+			sourceTree = "<group>";
+		};
+		E3E2AA352C94351E00FC5AEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA0D2C9434EE00FC5AEA /* ContentView.swift */,
+				E3E2AA532C98A8A600FC5AEA /* ProgressView.swift */,
+				E3E2AA552C98B7A400FC5AEA /* CryptoDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E3E2AA362C94370B00FC5AEA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA0B2C9434EE00FC5AEA /* MarshallCryptoApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E3E2AA372C94371900FC5AEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA3A2C9438C200FC5AEA /* Fonts */,
+				E3E2AA0F2C9434EF00FC5AEA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E3E2AA3A2C9438C200FC5AEA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA3C2C9438D100FC5AEA /* OpenSans-Regular.ttf */,
+				E3E2AA3B2C9438D100FC5AEA /* OpenSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E3E2AA3F2C94391B00FC5AEA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA402C94397B00FC5AEA /* Text+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E3E2AA422C94469200FC5AEA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA432C9446D600FC5AEA /* FetchDataService.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E3E2AA452C94477F00FC5AEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA462C9447F400FC5AEA /* CryptoData.swift */,
+				E3E2AA482C94492A00FC5AEA /* CryptoResponse.swift */,
+				E3E2AA512C989A8700FC5AEA /* CryptoLatestPricingSEK.swift */,
+				E3E2AA592C98CD5700FC5AEA /* CryptoLatestPricingUSD.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3E2AA4A2C948AEC00FC5AEA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E3E2AA4D2C9495F100FC5AEA /* CryptoImage.swift */,
+				E3E2AA4F2C94979300FC5AEA /* CryptoCurrency.swift */,
+				E3E2AA572C98C35D00FC5AEA /* CurrentCurrencyUSDKey.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3E2AA072C9434EE00FC5AEA /* MarshallCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E2AA2C2C9434EF00FC5AEA /* Build configuration list for PBXNativeTarget "MarshallCrypto" */;
+			buildPhases = (
+				E3E2AA042C9434EE00FC5AEA /* Sources */,
+				E3E2AA052C9434EE00FC5AEA /* Frameworks */,
+				E3E2AA062C9434EE00FC5AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarshallCrypto;
+			productName = MarshallCrypto;
+			productReference = E3E2AA082C9434EE00FC5AEA /* MarshallCrypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3E2AA172C9434EF00FC5AEA /* MarshallCryptoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E2AA2F2C9434EF00FC5AEA /* Build configuration list for PBXNativeTarget "MarshallCryptoTests" */;
+			buildPhases = (
+				E3E2AA142C9434EF00FC5AEA /* Sources */,
+				E3E2AA152C9434EF00FC5AEA /* Frameworks */,
+				E3E2AA162C9434EF00FC5AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3E2AA1A2C9434EF00FC5AEA /* PBXTargetDependency */,
+			);
+			name = MarshallCryptoTests;
+			productName = MarshallCryptoTests;
+			productReference = E3E2AA182C9434EF00FC5AEA /* MarshallCryptoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3E2AA002C9434EE00FC5AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E3E2AA072C9434EE00FC5AEA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E3E2AA172C9434EF00FC5AEA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E3E2AA072C9434EE00FC5AEA;
+					};
+				};
+			};
+			buildConfigurationList = E3E2AA032C9434EE00FC5AEA /* Build configuration list for PBXProject "MarshallCrypto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3E2A9FF2C9434EE00FC5AEA;
+			productRefGroup = E3E2AA092C9434EE00FC5AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3E2AA072C9434EE00FC5AEA /* MarshallCrypto */,
+				E3E2AA172C9434EF00FC5AEA /* MarshallCryptoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3E2AA062C9434EE00FC5AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E2AA132C9434EF00FC5AEA /* Preview Assets.xcassets in Resources */,
+				E3E2AA3D2C9438D100FC5AEA /* OpenSans-SemiBold.ttf in Resources */,
+				E3E2AA3E2C9438D100FC5AEA /* OpenSans-Regular.ttf in Resources */,
+				E3E2AA102C9434EF00FC5AEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E2AA162C9434EF00FC5AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3E2AA042C9434EE00FC5AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E2AA4E2C9495F100FC5AEA /* CryptoImage.swift in Sources */,
+				E3E2AA0E2C9434EE00FC5AEA /* ContentView.swift in Sources */,
+				E3E2AA5A2C98CD5700FC5AEA /* CryptoLatestPricingUSD.swift in Sources */,
+				E3E2AA492C94492A00FC5AEA /* CryptoResponse.swift in Sources */,
+				E3E2AA502C94979300FC5AEA /* CryptoCurrency.swift in Sources */,
+				E3E2AA412C94397B00FC5AEA /* Text+Extension.swift in Sources */,
+				E3E2AA582C98C35D00FC5AEA /* CurrentCurrencyUSDKey.swift in Sources */,
+				E3E2AA562C98B7A400FC5AEA /* CryptoDetailView.swift in Sources */,
+				E3E2AA472C9447F400FC5AEA /* CryptoData.swift in Sources */,
+				E3E2AA442C9446D600FC5AEA /* FetchDataService.swift in Sources */,
+				E3E2AA542C98A8A600FC5AEA /* ProgressView.swift in Sources */,
+				E3E2AA522C989A8700FC5AEA /* CryptoLatestPricingSEK.swift in Sources */,
+				E3E2AA0C2C9434EE00FC5AEA /* MarshallCryptoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E2AA142C9434EF00FC5AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E2AA1D2C9434EF00FC5AEA /* MarshallCryptoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3E2AA1A2C9434EF00FC5AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3E2AA072C9434EE00FC5AEA /* MarshallCrypto */;
+			targetProxy = E3E2AA192C9434EF00FC5AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E3E2AA2A2C9434EF00FC5AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3E2AA2B2C9434EF00FC5AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3E2AA2D2C9434EF00FC5AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarshallCrypto/Preview Content\"";
+				DEVELOPMENT_TEAM = B7MA4Q3886;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarshallCrypto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davidgeijer.MarshallCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3E2AA2E2C9434EF00FC5AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarshallCrypto/Preview Content\"";
+				DEVELOPMENT_TEAM = B7MA4Q3886;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarshallCrypto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davidgeijer.MarshallCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3E2AA302C9434EF00FC5AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7MA4Q3886;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davidgeijer.MarshallCryptoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarshallCrypto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarshallCrypto";
+			};
+			name = Debug;
+		};
+		E3E2AA312C9434EF00FC5AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7MA4Q3886;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davidgeijer.MarshallCryptoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarshallCrypto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarshallCrypto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3E2AA032C9434EE00FC5AEA /* Build configuration list for PBXProject "MarshallCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E2AA2A2C9434EF00FC5AEA /* Debug */,
+				E3E2AA2B2C9434EF00FC5AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E2AA2C2C9434EF00FC5AEA /* Build configuration list for PBXNativeTarget "MarshallCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E2AA2D2C9434EF00FC5AEA /* Debug */,
+				E3E2AA2E2C9434EF00FC5AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E2AA2F2C9434EF00FC5AEA /* Build configuration list for PBXNativeTarget "MarshallCryptoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E2AA302C9434EF00FC5AEA /* Debug */,
+				E3E2AA312C9434EF00FC5AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3E2AA002C9434EE00FC5AEA /* Project object */;
+}
